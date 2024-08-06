@@ -1,0 +1,312 @@
+body{
+  background-color: rgb(41, 39, 39);
+}
+*{
+  text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+  }
+  .BoxInfo{
+    background-color: rgb(64, 61, 61);
+    position: fixed;
+    top: 0.1px;
+    left: 0.1px;
+    padding-left: 1vw;
+    width: 100vw;
+    margin-top: -1%;
+    color: white;
+  }
+  .BoxInfo i{
+    display: inline-block;
+    font-size: 3vw;
+    margin-left: 1vw;
+    cursor: pointer;
+  }
+  .BoxInfo h1{
+    display: inline-block;
+    margin-left: 0.1vw;
+    font-size: 3vw;
+    padding-left: 2vw;
+  }
+  .BoxInfo p{
+    display: inline-block;
+    margin-left: 3vw;
+    font-weight: bolder;
+    font-size: 1.4vw;
+  }
+  .box,.box4,.box2,.box3{
+    background-color: rebeccapurple;
+    display: inline-block;
+    margin-left: 1vw;
+    padding-right: 0.7vw;
+    padding-top: 0.7vw;
+    padding-bottom: 0.7vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.6vw;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+  }
+  .box2{
+    margin-left: 7.4vw;
+  }
+  .box3{
+    margin-left: 12.7vw;
+  }
+  .box4{
+    margin-left: 18.5vw;
+  }
+  .BoxInfo input{
+    display: inline-block;
+    position: absolute;
+    top: 2.4vw;
+    left: 58vw;
+    color: white;
+    width: 35vw;
+    height: 3.6vw;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding-left: 10px;
+    background-color: black;
+    font-size: 1.7vw;
+  }
+  .search{
+    display: inline-block;
+    position: absolute;
+    top: 2.4vw;
+    left: 93.4vw;
+    color: white;
+    font-weight: lighter;
+    width: 5vw;
+    padding-left: 0.1vw;
+    border-radius: 12px;
+    height: 3.5vw;
+    padding-top: 0.2vw;
+    background-color: black;
+    border: 2px solid black;
+  }
+  .Menu{
+    background-color: rgb(64, 61, 61);
+    width: 24vw;
+    height: 45vw;
+    position: fixed;
+    top: 1vw;
+    margin-top: 4vw;
+    left: 0.1px;
+    color: white;
+    padding-left: 1vw;
+  }
+  .closeInfo{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    font-size: 2.6vw;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+  .MenuBox{
+    margin-top: 0.9vw;
+    font-size: 2vw;
+    border-radius: 15vw;
+    cursor: pointer;
+    margin-right: 4vw;
+    margin-left: 1vw;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  .MenuBox:hover,.MenuBox1:hover{
+    font-size: 3vw;
+    text-decoration: underline;
+  }
+  .MenuBox img,.MenuBox1 img{
+    width: 5vw;
+    height: 2.5vw;
+    border-radius: 5px;
+    border:2px solid rgba(110, 110, 110, 0.572);
+  }
+
+  .data{
+    position: absolute;
+    top: 10%;
+    left: 26vw;
+    color: white;
+  }
+  .data h1{
+    font-size: 260%;
+  }
+  .boxInfo{
+    background-color: rgba(110, 110, 110, 0.572);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 6); 
+    width: 22vw;
+    font-size: 8px;
+    font-weight: lighter;
+    border-radius: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+  }
+  .boxInfo h1{
+    margin-top: -1px;
+    font-weight: 500;
+    padding-left: 5px;
+  }
+  .boxInfo img{
+    width: 22vw;
+    border-radius: 10px;
+    height: 220px;
+  }
+  .boxInfo p{
+    font-size: 20px;
+    padding-left: 5px;
+    margin-top: -6%;
+  }
+  .boxInfo big{
+    font-size: 20px;
+  }
+  .boxInfo small{
+    font-size: 20px;
+  }
+  .boxInfo button{
+    background-color: rgb(97, 97, 203);
+    color: white;
+    margin-bottom: 1vw;
+    width: 17vw;
+    height: 3vw;
+    border-radius: 14px;
+    border: 1px solid white;
+    font-size: 1.7vw;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .boxInfo button:hover{
+    background-color: white;
+    color: black;
+  }
+  .BoxInfo span{
+    color: rgb(97, 97, 203);
+  }
+  .wait{
+    position: fixed;
+    top: 13vw;
+    left: 50vw;
+    width: 19vw;
+    height: 20vw;
+    border: solid 3px black;
+    border-radius: 10px;
+}
+.wait p{
+    position: fixed;
+    top: 30vw;
+    left: 50vw;
+    font-size: 3vw;
+    font-weight: bolder;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+}
+
+.moreInfo{
+  border-top: 1vw solid white;
+  border-radius: 5vw;
+  margin-top: 3vw;
+  width: 80vw;
+  /* height: 60vw; */
+  margin-left: 10vw;
+  color: white;
+}
+.close{
+  color: white;
+  background-color: rgb(97, 97, 203);
+  padding-left: 1.3vw;
+  padding-right: 1.6vw;
+  padding-top: 0.7vw;
+  padding-bottom: 0.7vw;
+  display: inline-block;
+  position: absolute;
+  top: 0.1vw;
+  right: 4.5vw;
+  border-radius: 50%;
+  font-size: 3vw;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.close:hover{
+  background-color: white;
+  color: black;
+}
+.moreInfo img{
+  position: relative;
+  top: 2vw;
+  left: 1vw;
+  border-radius: 10px;
+  width: 20vw;
+  height: 30vw;
+  display: inline-block;
+  border: 1px solid white;
+}
+.boxing{
+  display: inline-block;
+  position: absolute;
+  top: 5vw;
+  font-size: 1.6vw;
+  /* margin-left: 1vw; */
+  left: 35vw;
+}
+.boxing h1{
+  position: absolute;
+  top: 2.5vw;
+  color: rgb(97, 97, 203);
+  font-size: 2.1vw;
+  width: 55vw;
+}
+.Type, .Sourse, .Episodes{
+  display: inline-block;
+  padding-right: 2vw;
+}
+.boxing2{
+  position: absolute;
+  top: 12.3vw;
+  font-size: 1.6vw;
+  left: 35vw;
+  display: inline-block;
+}
+.boxing2 button{
+  position: absolute;
+  width: 15vw;
+  height: 3vw;
+  background-color: rgb(97, 97, 203);
+  color: white;
+  font-size: 1.3vw;
+  border: 0.2vw solid white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.boxing2 button:hover{
+  background-color: white;
+  color: black;
+}
+.boxing3{
+  display: inline-block;
+  position: absolute;
+  top: 29.7vw;
+  left: 35vw;
+  width: 56vw;
+  font-size: 1.6vw;
+  margin-top: -4vw;
+  padding-bottom: 1vw;
+}
+.boxing4{
+  position: absolute;
+  top: 34.7vw;
+  left: 12vw;
+  width: 19vw;
+  font-size: 1.6vw;
+}
+.Duration, .Status{
+  margin-top: -1.3vw;
+  margin-bottom: -1.2vw;
+}
