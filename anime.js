@@ -6,7 +6,7 @@ let moreInfo=document.querySelector(".moreInfo");
 let infoBox=document.querySelector(".infoBox");
 
 let NameofAnime="Naruto: Shippuden";
-let d,data;
+let d,data,urlInfo;
 function createInfo(){
     for(let i=0;i<d;i++){
         info.innerHTML+=`<div class="boxInfo">
@@ -54,12 +54,7 @@ function getclick() {
             moreInfo.querySelector(".Sourse span").innerText=data.data[index].source;
             moreInfo.querySelector(".Episodes span").innerText=data.data[index].episodes;
             moreInfo.querySelector(".linkAdd").href=data.data[index].trailer.url;
-            let urlInfo=data.data[index].trailer.url;
-            moreInfo.querySelector(".linkAdd").addEventListener("click",()=>{
-                if(urlInfo==null){
-                    alert("There is No video.");
-                }
-            })
+            urlInfo=data.data[index].trailer.url;
             moreInfo.querySelector(".Aired span").innerText=data.data[index].aired.string;
             moreInfo.querySelector(".Duration span").innerText=data.data[index].duration;
             moreInfo.querySelector(".Rating span").innerText=data.data[index].rating;
@@ -110,4 +105,10 @@ moreInfo.querySelector(".close").addEventListener("click",()=>{
     info.style.visibility = "visible";
     moreInfo.style.visibility = "hidden";
     infoBox.style.position = "static";
+})
+
+moreInfo.querySelector(".linkAdd").addEventListener("click",()=>{
+    if(urlInfo==null){
+        alert("There is No video.");
+    }
 })
