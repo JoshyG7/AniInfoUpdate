@@ -47,6 +47,7 @@ body{
     border: 1px solid white;
     cursor: pointer;
     color: white;
+    font-size: 0.1vw;
   }
   .box2{
     margin-left: 7.4vw;
@@ -78,6 +79,7 @@ body{
     left: 93.4vw;
     color: white;
     font-weight: lighter;
+    font-size: 1.7vw;
     width: 5vw;
     padding-left: 0.1vw;
     border-radius: 12px;
@@ -96,6 +98,7 @@ body{
     left: 0.1px;
     color: white;
     padding-left: 1vw;
+    height: 52vw;
   }
   .closeInfo{
     margin-top: 1vw;
@@ -127,12 +130,12 @@ body{
 
   .data{
     position: absolute;
-    top: 10%;
+    top: 6vw;
     left: 26vw;
     color: white;
   }
   .data h1{
-    font-size: 260%;
+    font-size: 3vw;
   }
   .boxInfo{
     background-color: rgba(110, 110, 110, 0.572);
@@ -149,25 +152,25 @@ body{
     border: 2px solid black;
   }
   .boxInfo h1{
-    margin-top: -1px;
-    font-weight: 500;
-    padding-left: 5px;
+    margin-top: -0.1vw;
+    font-size: 1.6vw;
+    padding-left: 0.5vw;
   }
   .boxInfo img{
     width: 22vw;
-    border-radius: 10px;
-    height: 220px;
+    border-radius: 0.5vw;
+    height: 15vw;
   }
   .boxInfo p{
-    font-size: 20px;
-    padding-left: 5px;
-    margin-top: -6%;
+    font-size: 1.5vw;
+    padding-left: 0.5vw;
+    margin-top: -0.6vw;
   }
   .boxInfo big{
-    font-size: 20px;
+    font-size: 1.5vw;
   }
   .boxInfo small{
-    font-size: 20px;
+    font-size: 1.5vw;
   }
   .boxInfo button{
     background-color: rgb(97, 97, 203);
@@ -175,7 +178,7 @@ body{
     margin-bottom: 1vw;
     width: 17vw;
     height: 3vw;
-    border-radius: 14px;
+    border-radius: 1.4vw;
     border: 1px solid white;
     font-size: 1.7vw;
     font-weight: bold;
@@ -194,8 +197,8 @@ body{
     left: 50vw;
     width: 19vw;
     height: 20vw;
-    border: solid 3px black;
-    border-radius: 10px;
+    border: solid 0.3vw black;
+    border-radius: 1vw;
 }
 .wait p{
     position: fixed;
