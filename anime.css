@@ -93,7 +93,7 @@ body{
     width: 24vw;
     height: 45vw;
     position: fixed;
-    top: 0.1vw;
+    top: 0.2vw;
     margin-top: 4vw;
     left: 0.1px;
     color: white;
@@ -108,7 +108,7 @@ body{
     margin-bottom: 20px;
   }
   .MenuBox{
-    margin-top: 0.3vw;
+    margin-top: 0.5vw;
     font-size: 2vw;
     border-radius: 15vw;
     cursor: pointer;
