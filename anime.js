@@ -12,8 +12,8 @@ function createInfo(){
         info.innerHTML+=`<div class="boxInfo">
                 <img src="${data.data[i].images.jpg.image_url}" alt="There is no photo">
                 <h1>${data.data[i].title_english}</h1>
-                <p>Anime |<span>${data.data[i].episodes} Episodes</span>
-                  <big>| ${data.data[i].duration} Duration</big>
+                <p>Anime | <span>${data.data[i].episodes} Episodes</span>
+                  <big> | ${data.data[i].duration} Duration | Aired: </big>
                   <small>${data.data[i].aired.string}</small>
                 </p>
                 <button>View More Info</button>
