@@ -7,18 +7,20 @@ let infoBox=document.querySelector(".infoBox");
 
 let NameofAnime="Naruto: Shippuden";
 let d,data,urlInfo;
-function createInfo(){
-    for(let i=0;i<d;i++){
-        info.innerHTML+=`<div class="boxInfo">
+function createInfo() {
+    for (let i = 0; i < d; i++) {
+        title = data.data[i].title_english ? data.data[i].title_english.substring(0, 20) + "..." : "No Title Available";
+        airedDate = data.data[i].aired?.string ? data.data[i].aired.string.substring(0, 20) + "..." : "Aired info unavailable";
+
+        info.innerHTML += `<div class="boxInfo">
                 <img src="${data.data[i].images.jpg.image_url}" alt="There is no photo">
-                <h1>${data.data[i].title_english}</h1>
-                <p>Anime | <span>${data.data[i].episodes} Episodes</span>
+                <h1>${title}</h1>
+                <p><span>${data.data[i].episodes} Ep.</span>
                   <big> | ${data.data[i].duration} Duration | Aired: </big>
-                  <small>${data.data[i].aired.string}</small>
+                  <small>${airedDate}</small>
                 </p>
                 <button>View More Info</button>
             </div>`;
-            console.log("new");
     }
     getclick();
 }
