@@ -101,11 +101,11 @@ body{
     height: 52vw;
   }
   .closeInfo{
-    margin-top: 1vw;
+    margin-top: 2vw;
     margin-left: 1vw;
     font-size: 2.6vw;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 1vw;
   }
   .MenuBox{
     margin-top: 0.5vw;
